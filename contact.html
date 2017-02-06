@@ -3,9 +3,9 @@
     <head>
 	<title>About Me</title>
 	<link href="assets/css/style.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-	<main>
 	<header>
 	    <div class="banner">
 		<h1 id="name">Jackie Wellons</h1>
@@ -16,30 +16,31 @@
 		</nav>
 	    </div>
 	</header>
+	<main>
 	    <!-- class is main using mn to avoid confusion -->
 	    <div class="mn">
 		<h2>Contact</h2>
 		<form>
 		    Name<br>
-		    <input type="text" name="name"><br>
+		    <input id="text" type="text" name="name"><br>
 		    Email<br>
-		    <input type="text" name="email"><br>
+		    <input id="text" type="text" name="email"><br>
 		    Message<br>
-		    <textarea name="message" rows="12" cols="72"></textarea>
+		    <textarea id="area" name="message" rows="12" cols="72"></textarea>
 		    <input id="submit" type="submit" value="Submit">
 		</form>
 	    </div>
-	<sidebar id="connect">
+	<section id="connect">
 	    <h3>Connect with Me</h3>
 	    <nav>
 		<a href="https://www.github.com/thenerdyfeline" title="thenerdyfeline"><img id="git" src="assets/images/github.png" alt="git"></a>
 		<a href="https://www.linkedin.com/in/jackiewellons" title="linkedin"><img class="icons" src="assets/images/linkedin.png" alt="link"></a>
 		<a href="http://stackexchange.com/users/9925984/jackie-wellons" title="stackoverflow"><img class="icons" src="assets/images/stackoverflow.png" alt="stack"></a>
 	    </nav>
-	</sidebar>
+	</section>
 	</main>
 	<footer>
-	    <p id="copyright">Copyright 2017 Jackie Wellons</p>
+	    <p id="copyright">Copyright 2017 Jackie Wellons></p>
 	</footer>
     </body>
 </html>
