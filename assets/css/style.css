@@ -183,6 +183,9 @@ input {
 }
 
 .label {
+    color: white;
+    font-size: 16px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     width: 260px;
     height: 30px;
     padding-top: 12px;
@@ -200,7 +203,7 @@ footer {
     position: relative;
     display: inline-block;
     bottom: 0;
-    padding: 8px;
+    padding: 8px 0px 8px 8px;
     border-top: 5px solid #4aaaa5;
     margin-top: 30px;
 }
@@ -222,23 +225,27 @@ footer {
 
     header {
 	position: static;
-	width: 100%;
+	width: 100vw;
 	height: 108px;
 	text-align: center;
     }
 
     .banner {
-	width: 100%;
+	width: 100vw;
+	margin-top: -8px;
     }
 
     #name {
-	width: 100%;
-	height: 30px
+	width: 100vw;
+	height: 30px;
+	padding:17px 0px 17px 0px;
+	margin-bottom: 20px;
     }
 
     
     #menu {
 	margin: 8px;
+	float: none;
     }
 
     
@@ -258,6 +265,7 @@ footer {
 	padding: 10px 20px 20px 20px;
 	
     }
+
 
     #profile {
 	display: block;
@@ -294,7 +302,8 @@ footer {
     }
 
     footer {
-	width: 100%;
+	width: 100vw;
+	padding: 8px 0px 8px 8px;
     }
     /* End of about 640px media query */
     /* Beginning of portfolio 640px media query */
@@ -304,8 +313,12 @@ footer {
 	padding: 20px;
     }
 
-    .label, .image {
+    .image {
 	width: 100%;
+    }
+
+    .label {
+	width: 87%;
     }
     /* End of portfolio 640px media query */
     /* Beginning of contact 640px media query */
@@ -372,6 +385,10 @@ footer {
 	
     }
 
+    #height {
+	height: 720px;
+    }
+
     #profile {
 	display: block;
 	width: 250px;
@@ -409,6 +426,7 @@ footer {
 
     footer {
 	width: 100%;
+	padding: 0px;
     }
     /* End of about 768px media query */
     /* Beginning of portfolio 768px media query */
