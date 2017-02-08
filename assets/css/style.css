@@ -355,7 +355,7 @@ footer {
     }
 
     .banner {
-	width: 100%;
+	width: 84vw;
     }
 
     #name {
@@ -364,7 +364,7 @@ footer {
 
     
     #menu {
-	margin: 16px;
+	margin: 15px -27px 0px 0px;
     }
 
     
